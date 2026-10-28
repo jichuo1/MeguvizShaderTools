@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:meguviz:coverage-catalog:0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "variants"
+  ],
+  "properties": {
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "variant_key",
+          "declared_conditions",
+          "fallback"
+        ],
+        "properties": {
+          "variant_key": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "declared_conditions": {
+            "type": "array"
+          },
+          "fallback": {
+            "enum": [
+              "runtime-compiler",
+              "unsupported"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

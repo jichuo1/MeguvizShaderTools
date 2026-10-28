@@ -1,0 +1,21 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {"name":"host-windows-release","generator":"Ninja","binaryDir":"${sourceDir}/build/host-windows-release","cacheVariables":{"CMAKE_BUILD_TYPE":"Release"}},
+    {"name":"host-windows-debug","inherits":"host-windows-release","binaryDir":"${sourceDir}/build/host-windows-debug","cacheVariables":{"CMAKE_BUILD_TYPE":"Debug"}},
+    {"name":"host-linux-release","generator":"Ninja","binaryDir":"${sourceDir}/build/host-linux-release","cacheVariables":{"CMAKE_BUILD_TYPE":"Release"}},
+    {"name":"host-linux-debug","inherits":"host-linux-release","binaryDir":"${sourceDir}/build/host-linux-debug","cacheVariables":{"CMAKE_BUILD_TYPE":"Debug"}}
+  ],
+  "buildPresets":[
+    {"name":"host-windows-release","configurePreset":"host-windows-release","jobs":4},
+    {"name":"host-windows-debug","configurePreset":"host-windows-debug","jobs":4},
+    {"name":"host-linux-release","configurePreset":"host-linux-release","jobs":4},
+    {"name":"host-linux-debug","configurePreset":"host-linux-debug","jobs":4}
+  ],
+  "testPresets":[
+    {"name":"host-windows-release","configurePreset":"host-windows-release","output":{"outputOnFailure":true}},
+    {"name":"host-windows-debug","configurePreset":"host-windows-debug","output":{"outputOnFailure":true}},
+    {"name":"host-linux-release","configurePreset":"host-linux-release","output":{"outputOnFailure":true}},
+    {"name":"host-linux-debug","configurePreset":"host-linux-debug","output":{"outputOnFailure":true}}
+  ]
+}

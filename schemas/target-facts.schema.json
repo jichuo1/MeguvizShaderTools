@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:meguviz:target-facts:0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "provenance",
+    "maintenance4_enabled",
+    "support_fp16_storage",
+    "shader_int64",
+    "shader_int16",
+    "moltenvk",
+    "device_defines"
+  ],
+  "properties": {
+    "provenance": {
+      "enum": [
+        "synthetic",
+        "captured"
+      ]
+    },
+    "maintenance4_enabled": {
+      "type": "boolean"
+    },
+    "support_fp16_storage": {
+      "type": "boolean"
+    },
+    "shader_int64": {
+      "type": "boolean"
+    },
+    "shader_int16": {
+      "type": "boolean"
+    },
+    "moltenvk": {
+      "type": "boolean"
+    },
+    "device_defines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "token"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[A-Za-z_][A-Za-z0-9_]*$"
+          },
+          "token": {
+            "type": "string",
+            "maxLength": 512
+          }
+        }
+      }
+    }
+  }
+}

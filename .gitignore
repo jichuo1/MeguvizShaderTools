@@ -1,0 +1,5 @@
+/build/
+/out/
+/verification/
+/*.log
+/third_party/

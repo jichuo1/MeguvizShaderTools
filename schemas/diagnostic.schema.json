@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:meguviz:diagnostic:0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "operation",
+    "phase",
+    "status",
+    "exit_code",
+    "cause_code",
+    "toolchain_lock_hash",
+    "result"
+  ],
+  "properties": {
+    "operation": {
+      "type": "string"
+    },
+    "phase": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "INCONCLUSIVE",
+        "UNSUPPORTED"
+      ]
+    },
+    "exit_code": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 12
+    },
+    "cause_code": {
+      "type": "string"
+    },
+    "toolchain_lock_hash": {
+      "type": "string"
+    },
+    "result": {}
+  }
+}

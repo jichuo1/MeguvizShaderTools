@@ -1,0 +1,7 @@
+#pragma once
+static const char* mgst_lock_json = R"MGSTLOCK(@MGST_LOCK_JSON@)MGSTLOCK";
+static const char* mgst_compiler_id = "@CMAKE_CXX_COMPILER_ID@";
+static const char* mgst_compiler_version = "@CMAKE_CXX_COMPILER_VERSION@";
+static const char* mgst_compiler_sha256 = "@MGST_COMPILER_SHA256@";
+static const char* mgst_build_config = "@CMAKE_BUILD_TYPE@";
+static const char* mgst_implementation_sha256 = "@MGST_IMPLEMENTATION_SHA256@";

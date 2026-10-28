@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:meguviz:request-trace:0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "requests"
+  ],
+  "properties": {
+    "requests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "variant_key"
+        ],
+        "properties": {
+          "variant_key": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "conditions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

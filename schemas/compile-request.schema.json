@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:meguviz:compile-request:0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "logical_shader_id",
+    "owner",
+    "source",
+    "includes",
+    "profile_id",
+    "profile_version",
+    "entry_point",
+    "target_env",
+    "effective_options",
+    "numeric_profile",
+    "toolchain_lock_hash",
+    "required_flags",
+    "optimization_passes",
+    "resource_recipe"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "logical_shader_id": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "object"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "includes": {
+      "type": "array",
+      "maxItems": 65536
+    },
+    "profile_id": {
+      "enum": [
+        "native-vulkan",
+        "ncnn-compat"
+      ]
+    },
+    "profile_version": {
+      "type": "string"
+    },
+    "entry_point": {
+      "const": "main"
+    },
+    "target_env": {
+      "enum": [
+        "vulkan1.0",
+        "vulkan1.1",
+        "vulkan1.3"
+      ]
+    },
+    "effective_options": {
+      "type": "object"
+    },
+    "numeric_profile": {
+      "type": "string"
+    },
+    "toolchain_lock_hash": {
+      "type": "string"
+    },
+    "required_flags": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "optimization_passes": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "resource_recipe": {
+      "type": "string"
+    },
+    "target_facts": {
+      "type": "object"
+    },
+    "expected_abi": {
+      "type": "object"
+    },
+    "ncnn_revision": {
+      "type": "string"
+    }
+  }
+}
