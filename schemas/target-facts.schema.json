@@ -5,11 +5,6 @@
   "additionalProperties": false,
   "required": [
     "provenance",
-    "maintenance4_enabled",
-    "support_fp16_storage",
-    "shader_int64",
-    "shader_int16",
-    "moltenvk",
     "device_defines"
   ],
   "properties": {

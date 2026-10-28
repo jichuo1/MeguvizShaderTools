@@ -1,0 +1,2178 @@
+{
+  "ncnn_revision": "7e36d25cb153092ba87a60530455c7376fedf452",
+  "qualified_for_no_runtime_compiler": false,
+  "schema_version": 1,
+  "source_count": 310,
+  "sources": [
+    {
+      "logical_shader_id": "ncnn/absval",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/absval.comp",
+      "source_sha256": "8bb9ad692378cc3fb85a949d23751fdb1c3c863373a00602db6f2cdd5aae293b"
+    },
+    {
+      "logical_shader_id": "ncnn/batchnorm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/batchnorm.comp",
+      "source_sha256": "a5c28f1e389fe74391b575bfbee6bf149cb3b0a58cbaa73b88b89f54adb7f5be"
+    },
+    {
+      "logical_shader_id": "ncnn/batchnorm_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/batchnorm_pack4.comp",
+      "source_sha256": "2cbf5cb4299831eba9139b93e3484115ab2f5da1a3a67ef25f982daefc0682e8"
+    },
+    {
+      "logical_shader_id": "ncnn/binaryop",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/binaryop.comp",
+      "source_sha256": "e0616a9862b2c97f554fd06ce8cee3058111cd5cafcfa4eb4f0085fe1162b82a"
+    },
+    {
+      "logical_shader_id": "ncnn/binaryop_broadcast",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/binaryop_broadcast.comp",
+      "source_sha256": "b1527b9b759f3447a460c26e68b0fde2ad899bc097294f725a354013f8e42600"
+    },
+    {
+      "logical_shader_id": "ncnn/binaryop_broadcast_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/binaryop_broadcast_pack1to4.comp",
+      "source_sha256": "7bd4b162bd73fab17bee58c9dcc24a06f72e1fe8f79ad3403baaee5b016ef0ba"
+    },
+    {
+      "logical_shader_id": "ncnn/binaryop_broadcast_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/binaryop_broadcast_pack4.comp",
+      "source_sha256": "3fd21ee903f9ad1d00e632f3b852eeb6760221d37e1559a7e117083792c6075b"
+    },
+    {
+      "logical_shader_id": "ncnn/binaryop_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/binaryop_pack4.comp",
+      "source_sha256": "d5c8ea8525e1db4bf84975b808e99b8873ece9457845ab9c510c3e6b4d183b1e"
+    },
+    {
+      "logical_shader_id": "ncnn/cast_fp16_to_fp32",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/cast_fp16_to_fp32.comp",
+      "source_sha256": "55df72991290cfe75cd916106b0cdb1ea8f804f89f0d395c409d1dc4f449eae2"
+    },
+    {
+      "logical_shader_id": "ncnn/cast_fp16_to_fp32_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/cast_fp16_to_fp32_pack4.comp",
+      "source_sha256": "1e374336af017f403bd2a19245e0af71b1c1724c5721ad79587aaeb44922932e"
+    },
+    {
+      "logical_shader_id": "ncnn/cast_fp32_to_fp16",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/cast_fp32_to_fp16.comp",
+      "source_sha256": "0a825f0f0aeca0841974f620481e43dadc67203e9add6ba1de7504f1f1485e2b"
+    },
+    {
+      "logical_shader_id": "ncnn/cast_fp32_to_fp16_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/cast_fp32_to_fp16_pack4.comp",
+      "source_sha256": "0e3a4c9d2d2af645c411e50e0adee53bd3372714a9f3b9858357a8e11a5cb023"
+    },
+    {
+      "logical_shader_id": "ncnn/celu",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/celu.comp",
+      "source_sha256": "b6ccc1e8b800841484d318e4300f53bd5a37dffecc742d08a13ca354bb50b8a5"
+    },
+    {
+      "logical_shader_id": "ncnn/clip",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/clip.comp",
+      "source_sha256": "01e9d771cf8e9fd916f4cb4e170669753a96b30dbf7d185df5192a15a7a951c8"
+    },
+    {
+      "logical_shader_id": "ncnn/concat",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/concat.comp",
+      "source_sha256": "40e0abcadac32fc42e62a27c499d0e0707a4fb250bf4b8abb5178fee53e24190"
+    },
+    {
+      "logical_shader_id": "ncnn/concat_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/concat_pack4.comp",
+      "source_sha256": "6877ff6c1928779128b4411f02edf8265dd0ebfad3ef46ce21d7ef70c0c4af2d"
+    },
+    {
+      "logical_shader_id": "ncnn/concat_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/concat_pack4to1.comp",
+      "source_sha256": "2ddd89d0cf04014224c6c38104e4fa96a9d97ecee00c3dea846a71ce013f60aa"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution1d_1x1s1d1_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution1d_1x1s1d1_cm.comp",
+      "source_sha256": "be993b846cafd1d7240597bf5bb0ce5b73507aeb1689f827d12be86516472097"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution1d_gemm_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution1d_gemm_cm.comp",
+      "source_sha256": "5057455c5bd81ba6080277becc352dd2089924df6bdde7f316c73ced2e225230"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution1d_packed",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution1d_packed.comp",
+      "source_sha256": "74bb8fa43427d13a22652449a167589f6347941450dd040916b1dafbf9972c4e"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution1d_packed_1x1s1d1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution1d_packed_1x1s1d1.comp",
+      "source_sha256": "f118995c2b25215faefe9ff2e6745e94a219b3bd669442e1505bcae9b8c4793c"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution1d_packed_gemm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution1d_packed_gemm.comp",
+      "source_sha256": "9c92b924c9d55f3b108e079c03a5d7135df8cf9fe528219e0c902dc6d4775391"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_1x1s1d1_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_1x1s1d1_cm.comp",
+      "source_sha256": "00f9c38dcd375da8da63bcce7828df2e3511dc895426f76584e8a0063b99f3e7"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_1x1s1d1_int8_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_1x1s1d1_int8_cm.comp",
+      "source_sha256": "96142a020793fe9479ba06060f67c54077047493ac7543a060002ed787181958"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd23_transform_input",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd23_transform_input.comp",
+      "source_sha256": "db3ce73748cbf00dac7a89d5bc9c733fa5c255526dd30cfc597176b36cb94da5"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd23_transform_input_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd23_transform_input_int8.comp",
+      "source_sha256": "a58a20806dc16963e0f2989eeba774c9c546659d159bf7639b2cfbc884d99078"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd23_transform_input_int8_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd23_transform_input_int8_cm.comp",
+      "source_sha256": "3757abc30bc498b38437552a0d67ebb63f64e88f563c2626e722ff3060184917"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd23_transform_output",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd23_transform_output.comp",
+      "source_sha256": "3c3d08916d7e0ba4aaba17e5cd7fb601e5f5c9b5bac10ec44538cb15e3051e30"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd23_transform_output_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd23_transform_output_int8.comp",
+      "source_sha256": "3e26714b986099bc826f2d198a7b0ab9a99cd35a38ebe391caf6d667fe620c86"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd43_transform_input",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd43_transform_input.comp",
+      "source_sha256": "637072389472907a0a3f0135cfcd7400cc3c9c125287b7e627666ecaab4873e2"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd43_transform_input_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd43_transform_input_int8.comp",
+      "source_sha256": "aa157fcc7506e6c5d769d7c058933d8d68654319e1b060c0eed89156555e4323"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd43_transform_input_int8_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd43_transform_input_int8_cm.comp",
+      "source_sha256": "3c7ca64a1f6065111ecb9aecce99b26717294a2fb72b6a9dcd4377ed45fe69c4"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd43_transform_output",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd43_transform_output.comp",
+      "source_sha256": "c4053f14bf91bd186ae29f2ac934d2c0361229e941ae69ced9ced4f9260439d0"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd43_transform_output_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd43_transform_output_int8.comp",
+      "source_sha256": "08680f80806aaeeef9804c5f7027c7c959bba195bf0bf2c13fd1c6f7a78c1587"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd_gemm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd_gemm.comp",
+      "source_sha256": "d77fee0bda6f66776a6e33575fdce502742fad8de1c3b956c938b459578b6f52"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd_gemm_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd_gemm_int8.comp",
+      "source_sha256": "080453d8c7f7506c8815f849ed9581534db49d7d03d056d88ccd54a5b7cc7a13"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_3x3s1d1_winograd_gemm_int8_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_3x3s1d1_winograd_gemm_int8_cm.comp",
+      "source_sha256": "b8f45ac5bdd3497f04bbc873d3f8256db330587734052e00c526d6c51630e6f9"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_gemm_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_gemm_cm.comp",
+      "source_sha256": "b786edbd0bc58cd266b974f67bcc65d81617a9dbdf70226f816f1471d1c529c4"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_gemm_int8_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_gemm_int8_cm.comp",
+      "source_sha256": "67aee6ecfcb7548b6db7cc1b7308c8d6fba86a6e788f82b462f643bb294bc920"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack1to4_3x3s1d1_winograd_gemm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack1to4_3x3s1d1_winograd_gemm.comp",
+      "source_sha256": "7814561760c8d23b849e9b961772f4b118d97c275bfb95645554a78bbe0dbf08"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd23_transform_input",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd23_transform_input.comp",
+      "source_sha256": "ea65be9e598f6af3496bf99223ebcdebfebbe82319711dfa258b1b71a9634ac5"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd23_transform_input_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd23_transform_input_int8.comp",
+      "source_sha256": "2be9054d938f6524932c4d2a5a515521d038b3fda5772075aacd1b28573edbc0"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd23_transform_input_int8_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd23_transform_input_int8_cm.comp",
+      "source_sha256": "b8f0fb51dd6599effd9911b7367baa2249c6ca7c3c4783050c0f86619fb189c3"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd23_transform_output",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd23_transform_output.comp",
+      "source_sha256": "e074cd7297e2be37c86e6c94cb0acdadea44f997719a4c7d159f86d7f8500596"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd23_transform_output_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd23_transform_output_int8.comp",
+      "source_sha256": "f5861ad9ace52b5e1d984e15d2a9f78e92482fcf666bade9712e60dd0f706f07"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd43_transform_input",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd43_transform_input.comp",
+      "source_sha256": "a77a9d25d23b74630894240fd0de11af69c2ee729c9bb285ed49942ff1b7c0f5"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd43_transform_input_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd43_transform_input_int8.comp",
+      "source_sha256": "db701abe8706be7d007edadb32172caa5efd6e1db514ca3856bfbf0e256bf9ed"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd43_transform_input_int8_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd43_transform_input_int8_cm.comp",
+      "source_sha256": "94323276f7c6717296325748228183a5dea9d1f722498aad1c13b98394620b83"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd43_transform_output",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd43_transform_output.comp",
+      "source_sha256": "79e49cf82d6fb30f58fcd304bd8a7a063fac34dedf26f677f3e0584734d3263b"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd43_transform_output_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd43_transform_output_int8.comp",
+      "source_sha256": "b684938ea654966f3cb484d9010cc25266490d8d83ef445713b6f0a765df683e"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4_3x3s1d1_winograd_gemm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4_3x3s1d1_winograd_gemm.comp",
+      "source_sha256": "78a17aa7c0986cae65ab0b0e4589cddd003c3b9decfd8128c90ffcfea562fdc4"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_pack4to1_3x3s1d1_winograd_gemm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_pack4to1_3x3s1d1_winograd_gemm.comp",
+      "source_sha256": "6d37dfdbe293f0810284a9ebb9c145c68213c8751ef0d117ce0684d78ecaf0ea"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_packed",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_packed.comp",
+      "source_sha256": "8aa8b813492a2f3045618e864fcf7a6164c78d7039b979403c66b3d2b2754bd6"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_packed_1x1s1d1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_packed_1x1s1d1.comp",
+      "source_sha256": "f54b9dc9d5073682b4844b7afc9aaddf376a78ab1654b580fcfb174b3b7def69"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_packed_1x1s1d1_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_packed_1x1s1d1_int8.comp",
+      "source_sha256": "a5973d14ac4ffcca50578a086029f586b3bfa92c65d6a369cf54828724404bb0"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_packed_gemm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_packed_gemm.comp",
+      "source_sha256": "25ccea094e74678db641f8d62c808b2fe1bc673a47dbef58a8ac34de409b367e"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_packed_gemm_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_packed_gemm_int8.comp",
+      "source_sha256": "abdb851538c87646e3ab2d793a0d4a4506491efcd11b89f17b0fb0af623e3497"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_packed_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_packed_int8.comp",
+      "source_sha256": "6c76df8f90e7aa1bf9f9f7f786b7d754e93bd1df63c9d426da775f57bb72ebf4"
+    },
+    {
+      "logical_shader_id": "ncnn/convolution_winograd_gemm_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolution_winograd_gemm_cm.comp",
+      "source_sha256": "3b455eecba3d8d9faa1d5ccc3dc48e234926c58f45e810cf1062201520aeefe5"
+    },
+    {
+      "logical_shader_id": "ncnn/convolutiondepthwise",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolutiondepthwise.comp",
+      "source_sha256": "4f2e9f4b8f99498daea73a29cf2451d58fa1a88f7c251fd562c35c7825643286"
+    },
+    {
+      "logical_shader_id": "ncnn/convolutiondepthwise_group",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolutiondepthwise_group.comp",
+      "source_sha256": "9e4a6bfeec0ff257beab79aa86aff185481475ef3bdd82c0518fd8e844c07265"
+    },
+    {
+      "logical_shader_id": "ncnn/convolutiondepthwise_group_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolutiondepthwise_group_pack1to4.comp",
+      "source_sha256": "66f7741024c8659a84371c9e754e8f2ea24e166f922488411702216b417f98ac"
+    },
+    {
+      "logical_shader_id": "ncnn/convolutiondepthwise_group_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolutiondepthwise_group_pack4.comp",
+      "source_sha256": "e50b764668e67bd4c491dae5bab5b2920d09052f7cb3454e07ce5aac527c3bdb"
+    },
+    {
+      "logical_shader_id": "ncnn/convolutiondepthwise_group_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolutiondepthwise_group_pack4to1.comp",
+      "source_sha256": "f7d17a0b28ecd0485d8d2ea7a8a5444ec06de87e388d52e77f806d870a17b5d6"
+    },
+    {
+      "logical_shader_id": "ncnn/convolutiondepthwise_group_packed_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolutiondepthwise_group_packed_int8.comp",
+      "source_sha256": "5bf2d1e06aa451b82a51f6be709d6cd01fb6c3d26c6e4735a0e008383ebf60e9"
+    },
+    {
+      "logical_shader_id": "ncnn/convolutiondepthwise_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolutiondepthwise_int8.comp",
+      "source_sha256": "54920ab25c2118dfefe108e50dbc216c8ed9b2396e294f11a3eff9565b559b8d"
+    },
+    {
+      "logical_shader_id": "ncnn/convolutiondepthwise_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolutiondepthwise_pack4.comp",
+      "source_sha256": "eec5ccbb1aae89d59575d5665f768e91cbd3fea77e358da93fd0af18cdb54783"
+    },
+    {
+      "logical_shader_id": "ncnn/convolutiondepthwise_pack4_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/convolutiondepthwise_pack4_int8.comp",
+      "source_sha256": "322800345259bd43790d2b6237b9bac37137459ee6ceedccb5fb4c085ab804d3"
+    },
+    {
+      "logical_shader_id": "ncnn/crop",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/crop.comp",
+      "source_sha256": "3ad39e4cd1b26a1b0531249ecadb1cef6a4d955c81411498ea690a800ade1f57"
+    },
+    {
+      "logical_shader_id": "ncnn/crop_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/crop_pack1to4.comp",
+      "source_sha256": "ddcbd30b677a342d0c40b47ba0de0a1df908057ca8c3963879440ee7a8be5503"
+    },
+    {
+      "logical_shader_id": "ncnn/crop_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/crop_pack4.comp",
+      "source_sha256": "4311f6477d826561fe129be62c405fb79a95eb9d265a68281767667d909c4375"
+    },
+    {
+      "logical_shader_id": "ncnn/crop_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/crop_pack4to1.comp",
+      "source_sha256": "bf985208b40bdc5966cfae4d1ce4794ca09f75053bba0e237e1f9e3c7964d7d4"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolution_col2im",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolution_col2im.comp",
+      "source_sha256": "41ef35b95b17793d7e8bd3ace0b34f67201c9dd1a2225a4d11791f5173503f72"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolution_gemm_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolution_gemm_cm.comp",
+      "source_sha256": "99d2033d1ff9a9b3ed54fb34fe2bf7edcae40d6e7ac7df6a03183fa557b2ce9d"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolution_gemm_packed",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolution_gemm_packed.comp",
+      "source_sha256": "3856dd072bb2bf4dee8d348a12648ae397b6703d08cc81cbd84f1c58d10ae440"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolution_pack4_col2im",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolution_pack4_col2im.comp",
+      "source_sha256": "ca6adbcced8cf05c90943d9543485c193bc01a047c201e36e666bc8451bb0f80"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolution_packed",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolution_packed.comp",
+      "source_sha256": "299c13230932c06b756e4a0a800dc256719de4656ef37e04d320a5c2dc434a26"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolutiondepthwise",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolutiondepthwise.comp",
+      "source_sha256": "beeb83ecb768b3efc1269c4795c586159c6851161e4f52d00c7a1f520c871862"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolutiondepthwise_group",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolutiondepthwise_group.comp",
+      "source_sha256": "03ee5e41e80ea3e1675616a67ca2e9d05243a25ae9fac621ff70c08889870415"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolutiondepthwise_group_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolutiondepthwise_group_pack1to4.comp",
+      "source_sha256": "c9391f8b1901850644d32b40c2d8dd882785b7e1f687e57a831b4ea8cb5297b1"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolutiondepthwise_group_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolutiondepthwise_group_pack4.comp",
+      "source_sha256": "0b5570b466bd31aa02e02f6568f95eda22de4eeaafa622dc52e89dbe8d5c3f6c"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolutiondepthwise_group_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolutiondepthwise_group_pack4to1.comp",
+      "source_sha256": "8ed6054daa10be9230d7e48b95713a5b7efcd502d305957219f2841bb584f62c"
+    },
+    {
+      "logical_shader_id": "ncnn/deconvolutiondepthwise_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deconvolutiondepthwise_pack4.comp",
+      "source_sha256": "7e4cff998f6e805ba8c4940bb08ace4a2509cde2f3c77353e467dedd026540a9"
+    },
+    {
+      "logical_shader_id": "ncnn/deepcopy",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deepcopy.comp",
+      "source_sha256": "04e04fad89c6a10bf7596f647f25ac40564b4e031b6bcdc76471ac261ad0de34"
+    },
+    {
+      "logical_shader_id": "ncnn/deepcopy_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/deepcopy_pack4.comp",
+      "source_sha256": "324c8306f431dddc68ad45ae77c1d951d8957a81f6347f897db5a3965e85130e"
+    },
+    {
+      "logical_shader_id": "ncnn/dequantize",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/dequantize.comp",
+      "source_sha256": "df0ffdda24b5fed48a6ee1cd24dbf48a41af78afcf60da7999e5f1abd7bd34a9"
+    },
+    {
+      "logical_shader_id": "ncnn/dequantize_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/dequantize_pack4.comp",
+      "source_sha256": "9fc9a66e07bfb16e5a1dcc2c679fa41f206c0f20e3dbeff14e37068737b6bd2f"
+    },
+    {
+      "logical_shader_id": "ncnn/dropout",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/dropout.comp",
+      "source_sha256": "1447ba9a40a9fdf8dd627707d00585243fef8160ae59e959d3bf25c65e4d9793"
+    },
+    {
+      "logical_shader_id": "ncnn/eltwise",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/eltwise.comp",
+      "source_sha256": "a3f2a826ac0f0a7ca872ad9bfefe0c6d264a666db8a9b8fa159bb30d6af5e965"
+    },
+    {
+      "logical_shader_id": "ncnn/elu",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/elu.comp",
+      "source_sha256": "5d3f2da6fc87401aa92b2767d760ff3519633ae2d8bf46275153452e108e362a"
+    },
+    {
+      "logical_shader_id": "ncnn/erf",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/erf.comp",
+      "source_sha256": "863e0cb611caba4311e0290bcce07907636547e85e09ae5f2f292568b53259e6"
+    },
+    {
+      "logical_shader_id": "ncnn/flatten",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/flatten.comp",
+      "source_sha256": "678d87d0a09be24c406244450233826072973836030d78f275a9d1698dbf7f49"
+    },
+    {
+      "logical_shader_id": "ncnn/flatten_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/flatten_int8.comp",
+      "source_sha256": "deb56aea78b9f90a158813319b14d9f377d9aa8a514cb9adaa096b4bd6d2030c"
+    },
+    {
+      "logical_shader_id": "ncnn/flatten_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/flatten_pack1to4.comp",
+      "source_sha256": "4cb73205a5567139b7eb0c91d959aba02afc7f3b6c80f3a1d1c49481ab17c8fe"
+    },
+    {
+      "logical_shader_id": "ncnn/flatten_pack1to4_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/flatten_pack1to4_int8.comp",
+      "source_sha256": "f12835ced0d86f75059b7ceecb2f357c3839da211bd43365da3306eb13ceb514"
+    },
+    {
+      "logical_shader_id": "ncnn/flatten_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/flatten_pack4.comp",
+      "source_sha256": "38abcf7c31947face1ec6f68dc714f43107bf3fcf4d81b409b33f6c7898fb1cf"
+    },
+    {
+      "logical_shader_id": "ncnn/flatten_pack4_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/flatten_pack4_int8.comp",
+      "source_sha256": "91b62a1d9890da912728ccb48c73cbd91c4f01b83e6d834a5596941ee4976a7c"
+    },
+    {
+      "logical_shader_id": "ncnn/gelu",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gelu.comp",
+      "source_sha256": "ea60f0252ac0c30bf6b715b54bc10f8df156d7e5fce466edec2b45572b0c88b0"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm.comp",
+      "source_sha256": "1012b2e963fa30abc734c7fffe04875a86c2a0533081954a0c6a71e127248999"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_cm.comp",
+      "source_sha256": "daa1fe532ebfaf60237693aad847826ff12ff1dd0d9cf6ab9b6fe92b458b63e1"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_int8.comp",
+      "source_sha256": "27db755f66ff6d7c8eda3e74e92a4eb7247e7ec8f31e33dc037da9e7ce690148"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_int8_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_int8_cm.comp",
+      "source_sha256": "01a343ca850719b5be26098440602c6ebf13b19fd1dc9b5e20e484f820980d1b"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_quantize_A_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_quantize_A_int8.comp",
+      "source_sha256": "a28bfdd35878bb9643e178d3083ee96529cad1077305e68acb964f4fc838df15"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_quantize_A_packed_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_quantize_A_packed_int8.comp",
+      "source_sha256": "a841e9e9bd23372cd9e4b8f432abd1c41d0f5f8a9123f1bed647b54f66af7cef"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_quantize_B_absmax_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_quantize_B_absmax_int8.comp",
+      "source_sha256": "cbe09c1f52f2c86ab5fea082758a448177ba962394b44a579f1efcc5a7734a96"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_quantize_B_descale_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_quantize_B_descale_int8.comp",
+      "source_sha256": "f8ac9b6b0ab9dda055cfe6340eda53b310e7f7a680d3736663e1caf52aad48d8"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_quantize_B_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_quantize_B_int8.comp",
+      "source_sha256": "e7fe959923533c546bfb2298e4a2c6bcbb68b93c218ed80a448049128d9f4e3f"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_quantize_B_packed_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_quantize_B_packed_int8.comp",
+      "source_sha256": "3bdbac848658037e2620ca8318e66a8afb15427797fe837bd53cf12b2df8367c"
+    },
+    {
+      "logical_shader_id": "ncnn/gemm_sg",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/gemm_sg.comp",
+      "source_sha256": "4c4cff14fa6bbef5f91ffbf95e15c7ca8bff9282804cef16cb855344cf1bd7bf"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_coeffs",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_coeffs.comp",
+      "source_sha256": "d1f2a6d572c45fbc418b993e969d70f9ea3b48cece5588753c503b6832382f54"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_coeffs_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_coeffs_pack4.comp",
+      "source_sha256": "64daf941e096e8173c975a4a87b6cc508ea061601751076289f1a80dd09b5b99"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_norm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_norm.comp",
+      "source_sha256": "6804de9aec3a1d57bd11fe86076486fa01c020810670a1f9b8a1ab109a820777"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_norm_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_norm_pack4.comp",
+      "source_sha256": "de4b8f8f01abf77eb512e8ac2315cf395fc5cac63bcb1a6bc360c8f1a852a9c0"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_reduce_mean",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_reduce_mean.comp",
+      "source_sha256": "1ced32e618b7ab4057534f0454f659ba1ee2a69551059df58decf3f3232bc309"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_reduce_mean_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_reduce_mean_pack4.comp",
+      "source_sha256": "75940ddc9f24fd040b56be19d9b29435b7d82861d139625f22d9f9138823a472"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_reduce_subgroup",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_reduce_subgroup.comp",
+      "source_sha256": "43c9867d222c7582329d5afebd636347057931777fa103c263b56233b6c1ccaa"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_reduce_subgroup_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_reduce_subgroup_pack4.comp",
+      "source_sha256": "d06b46536d26a2c7a1c3228898a4323309d234b85dde2226ceb1c4bf5b2f6705"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_reduce_sum4_fp16_to_fp32",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_reduce_sum4_fp16_to_fp32.comp",
+      "source_sha256": "fc2b081475fd53de136f731f98e2a2d2a12bbd81c173c45cf87e4ded3de926f7"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_reduce_sum4_fp16_to_fp32_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_reduce_sum4_fp16_to_fp32_pack4.comp",
+      "source_sha256": "472c2eb5ea4392fed2fddf49acaa20d2fb4e7cbb90e1d87b46b67c307bdd506d"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_reduce_sum4_fp32",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_reduce_sum4_fp32.comp",
+      "source_sha256": "250c9a04e9829568f8ec6431a4fd67f827661d9db9acc495ce568b954ec12509"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_reduce_sum4_fp32_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_reduce_sum4_fp32_pack4.comp",
+      "source_sha256": "20f74c900934671ed1dd78c30f51e0cf9c6f7e845cbaa86ef0a8a1982fdedfde"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_sub_mean_square",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_sub_mean_square.comp",
+      "source_sha256": "455a4ebcdc898be1d344bcef9519b96e74c07510f80e43fd88b05e64eea15908"
+    },
+    {
+      "logical_shader_id": "ncnn/groupnorm_sub_mean_square_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/groupnorm_sub_mean_square_pack4.comp",
+      "source_sha256": "7338bc0ee96ef47f48f0382cdb93a76b501c288f45992a5c83fb1a74c31bf2aa"
+    },
+    {
+      "logical_shader_id": "ncnn/hardsigmoid",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/hardsigmoid.comp",
+      "source_sha256": "f24a1a32bad8668b61aab355ed6805deff1f01127b416c02d4283d250c36ba0d"
+    },
+    {
+      "logical_shader_id": "ncnn/hardswish",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/hardswish.comp",
+      "source_sha256": "b1b948f1ac2b9e8c644e82630edcccbe157ec555b6bde72056c2f6d644e2f462"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct.comp",
+      "source_sha256": "59f7f6dd115334e5518253b1e3a2f39647534a54813bc66d422586e5b493494b"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_gemm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_gemm.comp",
+      "source_sha256": "75077fb2b895e93ae29a99a7ddb77c97b58845539d53ecf6b46ea33e4df44fe3"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_gemm_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_gemm_int8.comp",
+      "source_sha256": "3f69817a74fcac703d45cc5c387af5fc8afe183ab8bcb52168dd067e4a064867"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_gemm_wp1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_gemm_wp1to4.comp",
+      "source_sha256": "88eaf297d7f2bb7e2c5e4f7b0035ab8d93153108cb64fcf70958142dad8c2db2"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_gemm_wp4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_gemm_wp4.comp",
+      "source_sha256": "80d6c8ae59faed2c7ef119544718e96602d043c8defcfa37644e55333fa0a86f"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_gemm_wp4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_gemm_wp4to1.comp",
+      "source_sha256": "b5f332a13492f87b26a492882bf1db3664272202bdc77f6be7f6aa49bae202f7"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_int8.comp",
+      "source_sha256": "ae483bda95155bc694bf88d139f11aa19f6e71f02f5490df653990c23ab0bf94"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_pack1to4.comp",
+      "source_sha256": "10c27dfba610bb9682ed664c616df43981a84aafeaf96d8a9591f6b5e6f08739"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_pack4.comp",
+      "source_sha256": "eec2e5711db1a57548d4077918ba2449280a0904092f643e0829628462e6c61f"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_pack4to1.comp",
+      "source_sha256": "defbf8169c9c9c01177a5aed1a60852a9609d76c77feddeec5c11faafa15f9fc"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_reduce_sum8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_reduce_sum8.comp",
+      "source_sha256": "2e5f8640d248b04f37814bd44f94e4d9a31fb421c0a6cc331108507db289639a"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_reduce_sum8_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_reduce_sum8_int8.comp",
+      "source_sha256": "6d9f266321fa8335f253eea794eb32f341ac90d45bc0af5de04321b88048d547"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_reduce_sum8_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_reduce_sum8_pack4.comp",
+      "source_sha256": "14a4adbe15537fc6b749aaac395bf4a4ee161d6042d726a108ce575d7b7aca1a"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_sum8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_sum8.comp",
+      "source_sha256": "752a08377b5f8fa53566d22315a99db1456c6b8ff7cf1271dfe3cea9388f930b"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_sum8_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_sum8_int8.comp",
+      "source_sha256": "a5610e2adc3146dd79bb399a9b423c16bf2ffd3002b46bd2e1ced8a28fe9d608"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_sum8_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_sum8_pack1to4.comp",
+      "source_sha256": "fefae979106aa2d8008984eae4cfc3698ef3c177326339e320be4b443f6fd8da"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_sum8_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_sum8_pack4.comp",
+      "source_sha256": "8612e35f2a7e4d6ca1f152bb4dc9a70cee1c2d8d514568a7c9b014783b6014fd"
+    },
+    {
+      "logical_shader_id": "ncnn/innerproduct_sum8_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/innerproduct_sum8_pack4to1.comp",
+      "source_sha256": "3ccb4aa6a16d15dca1e60fca874274020d4abf73b881c67fa35f6e99684d33de"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_coeffs",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_coeffs.comp",
+      "source_sha256": "41a5608cba6083ef1decbd5c37068a6046b74d87fce1ef169f7427e6520e6c4e"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_coeffs_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_coeffs_pack4.comp",
+      "source_sha256": "34b20ed8a41db65a6ae77857782418906b67c8e729d5f689e4d74c3510d1787c"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_norm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_norm.comp",
+      "source_sha256": "b3df5f6bbbbc3b2f8f00c11420b109c08e983636671224ec412f4aba7a184462"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_norm_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_norm_pack4.comp",
+      "source_sha256": "4d76d820f39924a36aac140ec98b54d100bcf95b83ef9c7c5627a84acc694316"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_reduce_mean",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_reduce_mean.comp",
+      "source_sha256": "891224f40bffbc95552a36cc6dd12029df2c7d6cb239b14360f6cd9999ea0c5b"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_reduce_mean_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_reduce_mean_pack4.comp",
+      "source_sha256": "268d6650a56277b4f3200740a8d66dee7952c4298c6298683399df42f36c6fdf"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_reduce_subgroup",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_reduce_subgroup.comp",
+      "source_sha256": "9a83d5abbf9b4f331af9696be282d3a81e11648224197d2de4200c2d1a9d538f"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_reduce_subgroup_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_reduce_subgroup_pack4.comp",
+      "source_sha256": "1d77cdf199c710b076bbdc75f32087ae452adba0ef5ba7c5108aa5b34c433f4e"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_reduce_sum4_fp16_to_fp32",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_reduce_sum4_fp16_to_fp32.comp",
+      "source_sha256": "da5310d9adebcd4bcc2d51e52b5e9febe8ba0a02b68898aed68621d97ca328cf"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_reduce_sum4_fp16_to_fp32_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_reduce_sum4_fp16_to_fp32_pack4.comp",
+      "source_sha256": "793ccff76f5824996b52c4b91cfcf7c5f2c44d5188ff32172ab283bbfc7de80e"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_reduce_sum4_fp32",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_reduce_sum4_fp32.comp",
+      "source_sha256": "c6f71dc6a128a31590239f14a05cc009e612ea8d0da637c82ee2bdf596e92e79"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_reduce_sum4_fp32_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_reduce_sum4_fp32_pack4.comp",
+      "source_sha256": "858800a79fbf95f120eb64e2b87f22c73bb8ec6480b60504b37775fde0e83d4d"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_sub_mean_square",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_sub_mean_square.comp",
+      "source_sha256": "2552bcee83e641cbf4d8cd16694b8eee9b061156c2886ac5e44000b13b98545a"
+    },
+    {
+      "logical_shader_id": "ncnn/instancenorm_sub_mean_square_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/instancenorm_sub_mean_square_pack4.comp",
+      "source_sha256": "ed0f3e152bab9a46377b3653456e40b387cff6de2015f3cff98ba65ca16a37d3"
+    },
+    {
+      "logical_shader_id": "ncnn/interp",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/interp.comp",
+      "source_sha256": "c70bd6f24f71c7183536f7e65a7d3b97683317b98c73888fd353bc2e6886139a"
+    },
+    {
+      "logical_shader_id": "ncnn/interp_bicubic",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/interp_bicubic.comp",
+      "source_sha256": "2aa8e7376e4c4d7a140ac68044e367a514b7ba682365c48f6e036560beb52752"
+    },
+    {
+      "logical_shader_id": "ncnn/interp_bicubic_coeffs",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/interp_bicubic_coeffs.comp",
+      "source_sha256": "6f89ab1b291c4cd12202b6022aef9758b3a56daccb08e1241d0f5a549e286cf0"
+    },
+    {
+      "logical_shader_id": "ncnn/interp_bicubic_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/interp_bicubic_pack4.comp",
+      "source_sha256": "01538fa2cf739839bfd829244a760d599642f93938155ea6ae46b1e698aecb9c"
+    },
+    {
+      "logical_shader_id": "ncnn/interp_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/interp_pack4.comp",
+      "source_sha256": "5ff4991d886a6c0a70d95ce9f920f0a1b380c07e195b46dda0ab219b9a3650ca"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_coeffs",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_coeffs.comp",
+      "source_sha256": "5b5e86b57531ce00e01c73ae2bffdb5cc968598edf3ccae33aff88c7cc1e5c35"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_coeffs_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_coeffs_pack4.comp",
+      "source_sha256": "599f05f8e540dfed68041c1a82f80ce61c2dda07b95048be03af3eb33881e430"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_norm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_norm.comp",
+      "source_sha256": "1b99300b3116f02fd2f18c1c1bb6b29e3c77aed09c45e2cf6a43ce2ad74828b0"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_norm_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_norm_pack4.comp",
+      "source_sha256": "927281f5fcb3b89fc6132a001aac01b1aa01872f9575d8d4d9f3f4b8171b9231"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_reduce_mean",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_reduce_mean.comp",
+      "source_sha256": "9f5f190deec7d76eaade49f00b0955e6198c730f3f70a27f35da2cf8e081272e"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_reduce_mean_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_reduce_mean_pack4.comp",
+      "source_sha256": "fb07dd28499f3268c2721f4a30baab367d31027971182eae10dc17f4cd3a1d55"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_reduce_subgroup",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_reduce_subgroup.comp",
+      "source_sha256": "bab1f5df03ea5a5db98dcf4d286b7dea76a905179e8114a66f6e1d6359b25ec9"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_reduce_subgroup_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_reduce_subgroup_pack4.comp",
+      "source_sha256": "6e4016b75622b97048a8333b34d7ce48cefd5f5d9ec4a48c403ca6cc55804dc8"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_reduce_sum4_fp16_to_fp32",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_reduce_sum4_fp16_to_fp32.comp",
+      "source_sha256": "a65c816931885295a0fbdda68084e2fb1a7b8b8132ce669b5dec860461b8f35f"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_reduce_sum4_fp16_to_fp32_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_reduce_sum4_fp16_to_fp32_pack4.comp",
+      "source_sha256": "29392c52b8174f60ac77b670e22349e6b0ad2ea9da08e45dbd04efa37a4b3de8"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_reduce_sum4_fp32",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_reduce_sum4_fp32.comp",
+      "source_sha256": "e8db3135e5c8db2de3c6306e7e7ea1571ee199f7987777cd385064c2e9c27a66"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_reduce_sum4_fp32_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_reduce_sum4_fp32_pack4.comp",
+      "source_sha256": "b0109c95edfce7ed3b384835a6104285bb6e798258ae7f9371daca638a1f86f6"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_sub_mean_square",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_sub_mean_square.comp",
+      "source_sha256": "5914cf2a511b72d2fc8b23a29d27228c2c6a5eb8b57bfbd4c08352e11374e48c"
+    },
+    {
+      "logical_shader_id": "ncnn/layernorm_sub_mean_square_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/layernorm_sub_mean_square_pack4.comp",
+      "source_sha256": "4beaad5a5155bb4fcd7f198ef81c626198b12b00d3a20aeddb816f2ea772d4ee"
+    },
+    {
+      "logical_shader_id": "ncnn/lrn_norm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/lrn_norm.comp",
+      "source_sha256": "562175589799084442dce439fbdb4a00ea51077480b8a2c7577818d582048357"
+    },
+    {
+      "logical_shader_id": "ncnn/lrn_norm_across_channel_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/lrn_norm_across_channel_pack4.comp",
+      "source_sha256": "4c9d2fdbbb1c77059b2e25b748d20a7575676f1b71ebd91eba6e077380383196"
+    },
+    {
+      "logical_shader_id": "ncnn/lrn_norm_within_channel_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/lrn_norm_within_channel_pack4.comp",
+      "source_sha256": "fe98f38514ded0a0dba0d4d5bc09a49c93834e835e4d2e67b5d479ea97adc2e6"
+    },
+    {
+      "logical_shader_id": "ncnn/lrn_square_pad",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/lrn_square_pad.comp",
+      "source_sha256": "bde7ac04536b998b727df02cc0c1c51e56b122e65996e1edf7bd9facb2949e03"
+    },
+    {
+      "logical_shader_id": "ncnn/lrn_square_pad_across_channel_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/lrn_square_pad_across_channel_pack4.comp",
+      "source_sha256": "f7799a18e9f7557d344890baa341e2a367bcb523b740f06aa08ad6b2caf73823"
+    },
+    {
+      "logical_shader_id": "ncnn/lrn_square_pad_within_channel_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/lrn_square_pad_within_channel_pack4.comp",
+      "source_sha256": "fd96911d295299a87f6d8c420037100a66776e9ea3301b7e360497f3857439cd"
+    },
+    {
+      "logical_shader_id": "ncnn/mish",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/mish.comp",
+      "source_sha256": "5754bb5e702ea1aaf4296dfdf98d45caa142a89deb63aaf9e70343e6f6ea74ae"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_kvcache_append",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_kvcache_append.comp",
+      "source_sha256": "ad9fd4e6a8f6722bc8e40ab7a9af572cc6da4e22250f99e90e0d4bddae9cdae0"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_kvcache_copy",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_kvcache_copy.comp",
+      "source_sha256": "b16686499ecfa933c690a613e28baa62acdced7d047bc7ba26f44e776c52456d"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_kvcache_qk",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_kvcache_qk.comp",
+      "source_sha256": "050b0eabbe87fe03b61a2f1702b84485cb9437060c30ee94d8d7e1c8b32e332d"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_kvcache_qkv",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_kvcache_qkv.comp",
+      "source_sha256": "e9be744f40a42ef5130f47d2adbc51cf73dd518633f339f0c7e11af5383375b4"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_qk_cross",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_qk_cross.comp",
+      "source_sha256": "2c02a62ce2e32bbdfc30097dcab970ad5dc8c40e6d40c29b2c084c5be745e6e0"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_qk_cross_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_qk_cross_pack1to4.comp",
+      "source_sha256": "60bca0bf54918eb006c440c24727ff3bcc23e8133cf99c2873b8c22c7ec8eede"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_qk_cross_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_qk_cross_pack4.comp",
+      "source_sha256": "757add5cd3bea8be21f46c59d526fc0ecc3db725f8003e49f5aaa84833b14166"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_qk_cross_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_qk_cross_pack4to1.comp",
+      "source_sha256": "9e8c14244be2c3051e28209aae17605cefcc185d2b5aa873c65266dc5f6de777"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_qkv_cross",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_qkv_cross.comp",
+      "source_sha256": "bdc6065dc0bb9cbcc04dd7f1d8dc0b9e5e1aac49072445ac405781b1303c48b7"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_qkv_cross_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_qkv_cross_pack1to4.comp",
+      "source_sha256": "8fda335a53d3773676e7cbad1a01f87785a17530072a24c1346814e3fe16165d"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_qkv_cross_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_qkv_cross_pack4.comp",
+      "source_sha256": "782d8bc3d52a0f0ed87cdf700ff236f21239baba4741b24e0b832f5c8dce69d1"
+    },
+    {
+      "logical_shader_id": "ncnn/multiheadattention_qkv_cross_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/multiheadattention_qkv_cross_pack4to1.comp",
+      "source_sha256": "53fc52b1bb8656c4eab79ee46057245ee6dc9b2c4c2f50c7bd1bcaa5e703bbc2"
+    },
+    {
+      "logical_shader_id": "ncnn/normalize_coeffs",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/normalize_coeffs.comp",
+      "source_sha256": "c78a3906b18bf431aab55e08c33f5f1788da0cbdefe7376677cef83eb1b9bf0a"
+    },
+    {
+      "logical_shader_id": "ncnn/normalize_coeffs_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/normalize_coeffs_pack4.comp",
+      "source_sha256": "895c8f382f23cc7c59566f7de8c7a78e0dca55f5638726dc42ce57ee173639f6"
+    },
+    {
+      "logical_shader_id": "ncnn/normalize_norm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/normalize_norm.comp",
+      "source_sha256": "e55db26d6d76aeff4a24a14741c3127bd69df269a632c42b6eb043dbbb54673f"
+    },
+    {
+      "logical_shader_id": "ncnn/normalize_norm_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/normalize_norm_pack4.comp",
+      "source_sha256": "c3cf5147ccce69a677ed0a96c996a6e27cc864e395b71814fa912e84878918a1"
+    },
+    {
+      "logical_shader_id": "ncnn/normalize_reduce_sum4_fp16_to_fp32",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/normalize_reduce_sum4_fp16_to_fp32.comp",
+      "source_sha256": "0ee170904c69fded5c34ac28da8222ca9925b631a5046a25d5c46ed16acecb09"
+    },
+    {
+      "logical_shader_id": "ncnn/normalize_reduce_sum4_fp16_to_fp32_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/normalize_reduce_sum4_fp16_to_fp32_pack4.comp",
+      "source_sha256": "5f22d2cb96391d10e61cdaa4cc596fe7b478ad235869f0b98b3a9576ce0b995b"
+    },
+    {
+      "logical_shader_id": "ncnn/normalize_reduce_sum4_fp32",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/normalize_reduce_sum4_fp32.comp",
+      "source_sha256": "f354bdd21681d42b363cab974300fd27ede9c5f34ee6bc4beb58624b8aac7aa6"
+    },
+    {
+      "logical_shader_id": "ncnn/normalize_reduce_sum4_fp32_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/normalize_reduce_sum4_fp32_pack4.comp",
+      "source_sha256": "4060ba82106ae47826d217d824001347ca750a17930296eac8e48b68a6b445a8"
+    },
+    {
+      "logical_shader_id": "ncnn/packing",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/packing.comp",
+      "source_sha256": "01f34d128a6a3120c673dfbfbed07ea2dce46034b64fa0ea77b9cfad239982c4"
+    },
+    {
+      "logical_shader_id": "ncnn/packing_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/packing_int8.comp",
+      "source_sha256": "73cc7158ae7964a78e5d438b40a35ff5f7f6cc0bbfe4d7e0160781a6a958d302"
+    },
+    {
+      "logical_shader_id": "ncnn/packing_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/packing_pack1to4.comp",
+      "source_sha256": "f4ac9538ad258f471fe01af0e2469b3b725da925c569fe52843f179fde014890"
+    },
+    {
+      "logical_shader_id": "ncnn/packing_pack1to4_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/packing_pack1to4_int8.comp",
+      "source_sha256": "c923d5ae426588194eb759cdf206a17bd4593a3ad07d64aefb148f0c4fa9c402"
+    },
+    {
+      "logical_shader_id": "ncnn/packing_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/packing_pack4to1.comp",
+      "source_sha256": "e87c742f937063c2b4550421511aa385251f5cd1cbb82bbc2c7f808a2b3ab237"
+    },
+    {
+      "logical_shader_id": "ncnn/packing_pack4to1_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/packing_pack4to1_int8.comp",
+      "source_sha256": "74008b1f3203ec44a7087e08cc5d3bae7656866ed19b3affb74ecfd88a473f0f"
+    },
+    {
+      "logical_shader_id": "ncnn/padding",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding.comp",
+      "source_sha256": "9f04ec31edd14c746e032b8956671df6ac37319a17ca1d68bb2fd8803aad0557"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_3d",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_3d.comp",
+      "source_sha256": "388becec623e49a070c8b60b844bcdc6f48ac8e0202e1918613ec8487a3b2254"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_3d_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_3d_int8.comp",
+      "source_sha256": "f1c1278445da46623fec682ecf1603ec5483c67a9d8d4958a893738859687ea0"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_3d_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_3d_pack4.comp",
+      "source_sha256": "73dd43e41dd373e13ad6c7268cbc04cf1ff576c83e23fedf36ec6d6ce2fe5b35"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_3d_pack4_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_3d_pack4_int8.comp",
+      "source_sha256": "bcf377673ee994844e356a20cac7587a83aee14debe45fbf683835297de7c2c0"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_int8.comp",
+      "source_sha256": "ae8690f9b3cd40e14ea9287cdc92b58d0fe3652fced4d2abdd5eec2bd07c043e"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_pack1to4.comp",
+      "source_sha256": "4a3882c611d250acf36d9ebc2e7cfe667ecae88bd94f51f0065a6e0e3e0be26d"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_pack1to4_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_pack1to4_int8.comp",
+      "source_sha256": "ef5494aa3b8ca4a7a607096fd8a8e49075d4ccbf77c5627fa707317bc8531bea"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_pack4.comp",
+      "source_sha256": "ac7f3770d12fd8727065f6a4a5a9b7b1cc0c3141c992488a67063f31df31a10b"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_pack4_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_pack4_int8.comp",
+      "source_sha256": "fc6c0c9f24f9146bf5f9cac1e61c4e1743deeee2a3719dbef07c07f74af9c369"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_pack4to1.comp",
+      "source_sha256": "cb1ca6ef028819bc8537916f42a1e0d637a0de9ea1a8b79a7a51b5e8627ee7e1"
+    },
+    {
+      "logical_shader_id": "ncnn/padding_pack4to1_int8",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/padding_pack4to1_int8.comp",
+      "source_sha256": "4aa0366f9956962d4b44ed7fc56d6f40e334625f8254638662cd29e3e38b0596"
+    },
+    {
+      "logical_shader_id": "ncnn/permute",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/permute.comp",
+      "source_sha256": "8ed04784c8024339cad9f8377e3615b3496d9004fe50653150a0da6695f7cfb6"
+    },
+    {
+      "logical_shader_id": "ncnn/permute_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/permute_pack1to4.comp",
+      "source_sha256": "1a6d3aa7a968fb586d76993b1ab811b8eb4ddfa49b8370a07424e3c47cd3b17d"
+    },
+    {
+      "logical_shader_id": "ncnn/permute_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/permute_pack4.comp",
+      "source_sha256": "89428cfcbb09f09d116652265ad1cf5d55924e810224003277a57bd4b2b6fa18"
+    },
+    {
+      "logical_shader_id": "ncnn/permute_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/permute_pack4to1.comp",
+      "source_sha256": "3ad9d8102412c271bf8d118d9884772e7dda9bb46725bcda5a2dfb6374780f93"
+    },
+    {
+      "logical_shader_id": "ncnn/pixelshuffle",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pixelshuffle.comp",
+      "source_sha256": "b007644363614c625a980ca248688087a742e31473cb16cfa8a2caa6e6702436"
+    },
+    {
+      "logical_shader_id": "ncnn/pixelshuffle_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pixelshuffle_pack4.comp",
+      "source_sha256": "d96bce94a84519f6264071e89ede61e79b7602a997264be2ec30c8ab03173b8d"
+    },
+    {
+      "logical_shader_id": "ncnn/pixelshuffle_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pixelshuffle_pack4to1.comp",
+      "source_sha256": "742102c53f807c774c297e51f4c471c17348e1f5f953fa82acc303e992859c34"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling.comp",
+      "source_sha256": "fe0589b8cb880da9e9e98d38acf53acf85257ea016984247b41daeb04e370553"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_adaptive",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_adaptive.comp",
+      "source_sha256": "89842fd3015706174b70d441ed8106749f684d746e1ab914e9a05a95cb7b91ee"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_adaptive_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_adaptive_pack4.comp",
+      "source_sha256": "b1975b1f4ca2e344a2b3a917c05dd6b86ea76460a0b71127b9d91840aad6310e"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_max",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_max.comp",
+      "source_sha256": "0e811e38039935e016a12e17c997434569e2a62749d27f2661059848dcdc4c80"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_max_first",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_max_first.comp",
+      "source_sha256": "aad3c1c8f7cb14b3e44cf8288a064dd242933ddd9d921624018acc221f137705"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_max_first_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_max_first_pack4.comp",
+      "source_sha256": "d139af85c5b82c03f545ce18563ef2542700125863ab5c1a112498f3f848812d"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_max_last",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_max_last.comp",
+      "source_sha256": "3068bc66d48f4ec53a56145bbd9891813933eccfde204f8fa822571829e48a7f"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_max_last_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_max_last_pack4.comp",
+      "source_sha256": "a8eee9a5f3f962ba39e77b857b2fd521006984978ba77c177104582ba0414ffd"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_max_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_max_pack4.comp",
+      "source_sha256": "6a26ab23997b5cf4317416a42e3353e2d1365d7b40b4721ad1c50a0aa6da9f6e"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_sum",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_sum.comp",
+      "source_sha256": "3eb7f69baebe3859386305c3b025cf7af9a1fe32db785efd1e3ba907763916d6"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_sum_first",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_sum_first.comp",
+      "source_sha256": "2cebd59f30f60321068ca7cc46e2bf84c7098094a7cdb2596e46009c19617048"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_sum_first_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_sum_first_pack4.comp",
+      "source_sha256": "8e8dc69080563fedba6be399c07cd311b534c8b49ff3f7cf48268a18901270c2"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_sum_last",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_sum_last.comp",
+      "source_sha256": "2a29a391ea3cd18491d936e7eda7e13dca05d13df932caba9677fc079132ab29"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_sum_last_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_sum_last_pack4.comp",
+      "source_sha256": "60d38e39a54b77eddb692b39ac6aaaaaa0702729c74e394d20f1f7bb64dd74fb"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_global_reduce_sum_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_global_reduce_sum_pack4.comp",
+      "source_sha256": "be6ee5e118fa5f60b3e7f72e2bb81e5dcef49ef11ba80d4633dcec70cf061d47"
+    },
+    {
+      "logical_shader_id": "ncnn/pooling_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/pooling_pack4.comp",
+      "source_sha256": "ecffe7d6e29403d76a4386d352a3e704c36394e83b59142c1386c55e026ead37"
+    },
+    {
+      "logical_shader_id": "ncnn/prelu",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/prelu.comp",
+      "source_sha256": "56d9aa4fa566a3bc78da509d2dd19279379af2a16f312a9f38d78a42b4c9df9d"
+    },
+    {
+      "logical_shader_id": "ncnn/prelu_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/prelu_pack4.comp",
+      "source_sha256": "7c5843efce8e38c95107b38461eeaac8682c4e09410da3927cd32fb09722d524"
+    },
+    {
+      "logical_shader_id": "ncnn/priorbox",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/priorbox.comp",
+      "source_sha256": "808336b74537089fd689d1e86558a24b38b39cabc3b51d45658b4d5667ec10e6"
+    },
+    {
+      "logical_shader_id": "ncnn/priorbox_mxnet",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/priorbox_mxnet.comp",
+      "source_sha256": "e27259b9f3e1069bde7d1e5081e96e2b409df28f8d7d33fca194a4c9be2204dd"
+    },
+    {
+      "logical_shader_id": "ncnn/quantize",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/quantize.comp",
+      "source_sha256": "29cb487747c34b433cf39f77fbe7b64b68757b3c58f211c2ccf75fcc2ddbb09e"
+    },
+    {
+      "logical_shader_id": "ncnn/quantize_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/quantize_pack4.comp",
+      "source_sha256": "358050042a13e5ee90c8f3b7e00cf0ca6e3372059af59e5872ca95328ddfa4f9"
+    },
+    {
+      "logical_shader_id": "ncnn/reduction",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reduction.comp",
+      "source_sha256": "5d8c8a34d4827d11bd06aa80362a15df09105a83b2b2c05a2be0163d96490d95"
+    },
+    {
+      "logical_shader_id": "ncnn/relu",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/relu.comp",
+      "source_sha256": "fb26d914a5286cfad25895a203a49af59b6d0b3c76b78c15f5761b56ccfbe900"
+    },
+    {
+      "logical_shader_id": "ncnn/reorg",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reorg.comp",
+      "source_sha256": "4cd1327808bf8560ec663e51a635b4a7f6cd379716a82cf5b87902ccfffccd88"
+    },
+    {
+      "logical_shader_id": "ncnn/reorg_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reorg_pack1to4.comp",
+      "source_sha256": "2efa27ddea561c925722eca4968cdf5fe0850005a17648b2ded5ee752cbfd888"
+    },
+    {
+      "logical_shader_id": "ncnn/reorg_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reorg_pack4.comp",
+      "source_sha256": "130672292252394e9874397620cf486c4fc26542bdc70b0175dd7243b6c0a370"
+    },
+    {
+      "logical_shader_id": "ncnn/requantize",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/requantize.comp",
+      "source_sha256": "bc052d0d1f24f42481642893434719358d33c6618735179a4848eef3616c0464"
+    },
+    {
+      "logical_shader_id": "ncnn/requantize_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/requantize_pack4.comp",
+      "source_sha256": "ede5457d8c16d99aabb7045a39c293b3e5599d054059132c71e547285f6d7e1b"
+    },
+    {
+      "logical_shader_id": "ncnn/reshape",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reshape.comp",
+      "source_sha256": "442983e80ee9dfa062b5ebb9aca01b5cae28e68b51411ee9f52acb7c7d44ad76"
+    },
+    {
+      "logical_shader_id": "ncnn/reshape_batch_reorder",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reshape_batch_reorder.comp",
+      "source_sha256": "04ac1d4433a16c1a9c14cfcd26b36453505ad8dfb174e47303ba2455f51a390a"
+    },
+    {
+      "logical_shader_id": "ncnn/reshape_batch_reorder_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reshape_batch_reorder_pack1to4.comp",
+      "source_sha256": "251dd75cfc34476679019ad86a18fb2e57cc6bffb4e2c8cad0f6222bbdcf896d"
+    },
+    {
+      "logical_shader_id": "ncnn/reshape_batch_reorder_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reshape_batch_reorder_pack4.comp",
+      "source_sha256": "9984657fbe533df87ca3136af51af7c398f369ac9aca090237a668df24e44dcc"
+    },
+    {
+      "logical_shader_id": "ncnn/reshape_batch_reorder_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reshape_batch_reorder_pack4to1.comp",
+      "source_sha256": "718855fceb3aac5f26f8f856c68260628043c1dc8616464bb3f3b73ac7cf6f2b"
+    },
+    {
+      "logical_shader_id": "ncnn/reshape_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reshape_pack1to4.comp",
+      "source_sha256": "e18f1f52f842afe91d6229c50ff1bfd5a330f2a7a219feef4affc926583e436a"
+    },
+    {
+      "logical_shader_id": "ncnn/reshape_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reshape_pack4.comp",
+      "source_sha256": "37320aaf77fd2c206eb36003ec88c77f3491136636becf2435aee1855552d535"
+    },
+    {
+      "logical_shader_id": "ncnn/reshape_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/reshape_pack4to1.comp",
+      "source_sha256": "bc07a7d925396e16914b659e1b1b2d84a5dbb3c303231ba850f1ba05f54311be"
+    },
+    {
+      "logical_shader_id": "ncnn/rmsnorm_coeffs",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rmsnorm_coeffs.comp",
+      "source_sha256": "cc6f18c74d428a187ede304d72f1ce3fc9978c44e0483a5e160dcaa9f3a04c1d"
+    },
+    {
+      "logical_shader_id": "ncnn/rmsnorm_coeffs_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rmsnorm_coeffs_pack4.comp",
+      "source_sha256": "5371b2852a9bf90258cf5410c2d3f2069e3cfa69c7f3a6dd047f8895f20320e1"
+    },
+    {
+      "logical_shader_id": "ncnn/rmsnorm_norm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rmsnorm_norm.comp",
+      "source_sha256": "c7b9b095700518ee1c9bfe568ee5a451b8b87aaa92b4e3b5f140ef3a87acc330"
+    },
+    {
+      "logical_shader_id": "ncnn/rmsnorm_norm_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rmsnorm_norm_pack4.comp",
+      "source_sha256": "6b4153a1f445efc6d90de168ddea1c8de1cfe9f6e9dffd537fddbe8c8070beb1"
+    },
+    {
+      "logical_shader_id": "ncnn/rmsnorm_reduce_subgroup",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rmsnorm_reduce_subgroup.comp",
+      "source_sha256": "486d8d32582280d4d528a1f4e00563bdd67cc829e4398436d9453073252ee339"
+    },
+    {
+      "logical_shader_id": "ncnn/rmsnorm_reduce_subgroup_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rmsnorm_reduce_subgroup_pack4.comp",
+      "source_sha256": "307fd4c3ddb661596d7e0a77c2c0123120b798a6d461f7960e0fffd5e799d753"
+    },
+    {
+      "logical_shader_id": "ncnn/rmsnorm_square",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rmsnorm_square.comp",
+      "source_sha256": "2281ef7bbd94113bc9653895253bbaf17aeb854c8db71570fa58dce2c5eece1f"
+    },
+    {
+      "logical_shader_id": "ncnn/rmsnorm_square_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rmsnorm_square_pack4.comp",
+      "source_sha256": "6f8680f665cbe557685e8c110e66e3e30c56e922d2114af518954d14375c63ac"
+    },
+    {
+      "logical_shader_id": "ncnn/rotaryembed",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rotaryembed.comp",
+      "source_sha256": "0492b4d0fb0d5c9051d83d107f2feff122a2932c3b33f184b2ba7aec55382561"
+    },
+    {
+      "logical_shader_id": "ncnn/rotaryembed_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/rotaryembed_pack4.comp",
+      "source_sha256": "c7318b3374312aac03944d2123a5ec4ea2735530688bf65f71287680799b94e8"
+    },
+    {
+      "logical_shader_id": "ncnn/scale",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/scale.comp",
+      "source_sha256": "430f3ad88c9ac9b93a9c6e3fb609832582653794538107cd1441978422aa1e75"
+    },
+    {
+      "logical_shader_id": "ncnn/scale_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/scale_pack4.comp",
+      "source_sha256": "e80de3b68afd6e547365a8bc9966c49715893cd438b0994124823f8305cc3ebb"
+    },
+    {
+      "logical_shader_id": "ncnn/sdpa_cross",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/sdpa_cross.comp",
+      "source_sha256": "2ad6248fe7cce9f872ff5ea236b6035eff8b546e7bf3dd91ea5e1ea43354b35c"
+    },
+    {
+      "logical_shader_id": "ncnn/sdpa_cross_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/sdpa_cross_cm.comp",
+      "source_sha256": "cd5df06161666e0dddceb1aa93c59b5adc541603347daa87379fb4df127c2938"
+    },
+    {
+      "logical_shader_id": "ncnn/sdpa_fa",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/sdpa_fa.comp",
+      "source_sha256": "e135022cbdf720875272731b2e6331374e255dfbe651f27ee35b9e63c6cca0ab"
+    },
+    {
+      "logical_shader_id": "ncnn/sdpa_fa_cm",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/sdpa_fa_cm.comp",
+      "source_sha256": "9664b6471fa335210ab5da29a03cf8590e14f5242394f976f06f598b74f2b60c"
+    },
+    {
+      "logical_shader_id": "ncnn/sdpa_kvcache_append",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/sdpa_kvcache_append.comp",
+      "source_sha256": "f05757592a43335359bb88c1d3807d88eef41e63b7a75916a94347f7edcba26e"
+    },
+    {
+      "logical_shader_id": "ncnn/sdpa_kvcache_copy",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/sdpa_kvcache_copy.comp",
+      "source_sha256": "b16686499ecfa933c690a613e28baa62acdced7d047bc7ba26f44e776c52456d"
+    },
+    {
+      "logical_shader_id": "ncnn/selu",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/selu.comp",
+      "source_sha256": "9b48253ad55414a1ebd3292aa8d6ece5c29177ad26fef9446b1aa02b63f568d0"
+    },
+    {
+      "logical_shader_id": "ncnn/shrink",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/shrink.comp",
+      "source_sha256": "5fa04ea74aa50dd0b9946b586b6cd593280bad6037712cc1cbd138bfb15e7256"
+    },
+    {
+      "logical_shader_id": "ncnn/shufflechannel",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/shufflechannel.comp",
+      "source_sha256": "ec3889e03eb93b81aba148c7f95f14fc3b71935517e7c747262d301301e0fe6b"
+    },
+    {
+      "logical_shader_id": "ncnn/shufflechannel_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/shufflechannel_pack4.comp",
+      "source_sha256": "b155fe77afba4e68bca07569fa7ee83e09b1513bfaa3c86bc22ea65b17eb9301"
+    },
+    {
+      "logical_shader_id": "ncnn/sigmoid",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/sigmoid.comp",
+      "source_sha256": "7e43516e6ace94eee83db1155ee3cbe3988543bd75d2b54aa24524fdf59c1c04"
+    },
+    {
+      "logical_shader_id": "ncnn/slice",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/slice.comp",
+      "source_sha256": "69ba8b90b9eb2b1236041b5a9043ce366b94fb738fc3bcf805f981c3924d5b65"
+    },
+    {
+      "logical_shader_id": "ncnn/slice_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/slice_pack1to4.comp",
+      "source_sha256": "f88733559023e2503a691be440f4ffc375e5472fad9735185708cc23987ddfa1"
+    },
+    {
+      "logical_shader_id": "ncnn/slice_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/slice_pack4.comp",
+      "source_sha256": "28845569c423e14b4d3680419cc7fb2593d7938aaf790c57d3cbe82dd8180010"
+    },
+    {
+      "logical_shader_id": "ncnn/softmax_div_sum",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/softmax_div_sum.comp",
+      "source_sha256": "88bb3666a7c9b22eea809404facdf48578507edfc10077aee3b715bca2d1c58c"
+    },
+    {
+      "logical_shader_id": "ncnn/softmax_div_sum_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/softmax_div_sum_pack4.comp",
+      "source_sha256": "a9b2f90d18f2e3a96f7f1690592a95bd976315affb2971980b65f715db10d851"
+    },
+    {
+      "logical_shader_id": "ncnn/softmax_exp_sub_max",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/softmax_exp_sub_max.comp",
+      "source_sha256": "b93b1b9633574b903d13a59640065b166471f6467a62ac110dbcbab9a2dc8268"
+    },
+    {
+      "logical_shader_id": "ncnn/softmax_exp_sub_max_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/softmax_exp_sub_max_pack4.comp",
+      "source_sha256": "f3c5bc3f36b335408f843efbd7a9f54fca5da982bc0aa57e8846c78b4dfb9d56"
+    },
+    {
+      "logical_shader_id": "ncnn/softmax_reduce_max",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/softmax_reduce_max.comp",
+      "source_sha256": "c043dfaf186fe1405b5dd3c7a9b3457f5c946ae84a58c74ec515f2ad347f8e00"
+    },
+    {
+      "logical_shader_id": "ncnn/softmax_reduce_max_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/softmax_reduce_max_pack4.comp",
+      "source_sha256": "6e92874645fb9fc406c5b64f66954674f856fb1c9faeb1d7cdbbaae64e27c746"
+    },
+    {
+      "logical_shader_id": "ncnn/softmax_reduce_sum",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/softmax_reduce_sum.comp",
+      "source_sha256": "9bb74f4892074fcc91570a1b216ab091d2310d7c88762ec71226e268ef1005cc"
+    },
+    {
+      "logical_shader_id": "ncnn/softmax_reduce_sum_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/softmax_reduce_sum_pack4.comp",
+      "source_sha256": "8c08a5e3ccdc3644f85d7483f849e1786277e04bca39f78da27ffe9b0dc2d819"
+    },
+    {
+      "logical_shader_id": "ncnn/softplus",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/softplus.comp",
+      "source_sha256": "b86bb565263f0fa800c9ee74e7b2a9b53aa24145aec3caca0b546c4b48e94ffe"
+    },
+    {
+      "logical_shader_id": "ncnn/swish",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/swish.comp",
+      "source_sha256": "d25493bdaa90a853eecfdcc87d980c2f6e353f9dc0e27c9e6f01d4de0c46c1b1"
+    },
+    {
+      "logical_shader_id": "ncnn/tanh",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/tanh.comp",
+      "source_sha256": "a22edff9adb2f724e126f56c4cc69b8e1451440ce003d20477ac69cee0dbe1ef"
+    },
+    {
+      "logical_shader_id": "ncnn/tile",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/tile.comp",
+      "source_sha256": "3ae89f9d828e9d7ddd42b10396920967c7737e19a69b3fb8965932a6e71831df"
+    },
+    {
+      "logical_shader_id": "ncnn/tile_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/tile_pack4.comp",
+      "source_sha256": "410ca52eb4181cc1d8338a7203f36e7d6250ef688dba6996e7adeee5ae5aeb9a"
+    },
+    {
+      "logical_shader_id": "ncnn/unaryop",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/unaryop.comp",
+      "source_sha256": "0ea611f6d3c571f8c5d1cfb9ce23ab0cf33c0e78b122a8440a02ef99fce97779"
+    },
+    {
+      "logical_shader_id": "ncnn/unfold_im2col",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/unfold_im2col.comp",
+      "source_sha256": "7dd107bde59fbd502ed14c34ecb9c61b5860fbd0c5ff15ab63eb64c3b536ce03"
+    },
+    {
+      "logical_shader_id": "ncnn/unfold_im2col_pack1to4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/unfold_im2col_pack1to4.comp",
+      "source_sha256": "ef15da955b53a6f104503ce1d3ed63f3537366516c8e60a5612c8d91ed720ac2"
+    },
+    {
+      "logical_shader_id": "ncnn/unfold_im2col_pack4",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/unfold_im2col_pack4.comp",
+      "source_sha256": "be5293c4744865ac4545cc833aba45fdfd16b141bc6ecc60c0af6232ca2600b7"
+    },
+    {
+      "logical_shader_id": "ncnn/unfold_im2col_pack4to1",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/unfold_im2col_pack4to1.comp",
+      "source_sha256": "057f8cd31ebfa289a52bafe7b9db20f64a7313cb23679a1176a312ae4d506aa4"
+    },
+    {
+      "logical_shader_id": "ncnn/vulkan_activation",
+      "required_variants_qualification": "BLOCKED pending target facts/Options/packing/shape catalog",
+      "runtime_index_qualification": "unqualified until exact generated registry receipt",
+      "source_path": "src/layer/vulkan/shader/vulkan_activation.comp",
+      "source_sha256": "c4b3f0c7dad74d16e4f0bbb702d358aa89d164a66df1c02b79c5ba0d791fc6f8"
+    }
+  ]
+}

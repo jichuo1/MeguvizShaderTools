@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "project": "MeguvizShaderTools",
+  "profile": "bil-rife-ncnn-android",
+  "status": "IN_PROGRESS",
+  "as_of_utc": "2026-10-28T07:55:46.399145+00:00",
+  "source_origin": "independent private repository; exact source manifest and Git revision recorded by coordinator",
+  "qualified_hosts": [
+    "windows-x86_64 Release"
+  ],
+  "target_runtime_qualified": false,
+  "no_runtime_compiler_qualified": false,
+  "toolchain_lock_hash": "6e122d9add6574c7b2c45be3c691432ca3050f61e667edcbda13e178635750cb",
+  "executable_sha256": "de6a895b512f63e563d76374031927f9ae6bd96436ccd8ab2c7d3645eba47521",
+  "schema_snapshot_sha256": "e18d92e7ef67961412e48c4c7774ad9fa4c3977855b1db9e81051b89691a83df",
+  "gates": [
+    {
+      "id": "S0",
+      "status": "DONE",
+      "scope": "Windows native host, fixed official sources, no GPU/runtime dependency",
+      "evidence": [
+        "verification\\review-fixes\\run-1793176549771302300\\installed-contracts\\run-1793176593983680300\\summary.json",
+        "verification\\installation\\run-1793176587925764500\\summary.json",
+        "D:\\MeguvizPack\\MeguvizShaderTools\\verification\\installation\\run-1793176587925764500\\release-check.json"
+      ],
+      "command_count": 78
+    },
+    {
+      "id": "S1",
+      "status": "DONE",
+      "scope": "Windows host compile/validate/reflect/ABI/pack integrity, deterministic SPV, installed external CMake consumer",
+      "evidence": [
+        "verification\\review-fixes\\run-1793176549771302300\\installed-contracts\\run-1793176593983680300\\summary.json",
+        "verification\\installation\\run-1793176587925764500\\summary.json",
+        "D:\\MeguvizPack\\MeguvizShaderTools\\verification\\installation\\run-1793176587925764500\\release-check.json"
+      ],
+      "command_count": 78
+    },
+    {
+      "id": "S2",
+      "status": "BLOCKED",
+      "completed": [
+        "pure-input ncnn renderer/resource/helper",
+        "ncnn descriptor/push/spec/name linter and strip-name negative",
+        "Compute affine and RIFE Warp/pack4 same-tool static compile"
+      ],
+      "blocked": [
+        "exact target runtime expanded-input capture and differential",
+        "GPU numerical oracle"
+      ],
+      "evidence": [
+        "verification/owners-libcxx-fixed/run-1793174425995138200/commands.json",
+        "verification/owners-libcxx-fixed/run-1793174425995138200/summary.json"
+      ]
+    },
+    {
+      "id": "S3",
+      "status": "BLOCKED",
+      "scope": "host catalog/request/miss/condition contracts and minimal closed fixture; not production builtin closure",
+      "completed": [
+        "coverage command accepts JSON/JSONL and reports missing variants and unobserved declared conditions",
+        "compile-key include/recipe/tool/target/numeric binding and content reversion",
+        "310 fixed ncnn shader sources inventoried without fabricating runtime index/variant qualification"
+      ],
+      "evidence": [
+        "verification/host-libcxx-fixed/run-1793174325797694600/commands.json",
+        "catalog/ncnn-source-inventory.json"
+      ],
+      "production_builtin_coverage": "BLOCKED pending Compute provider, actual target facts and trace",
+      "host_subtasks_status": "DONE",
+      "blocked": [
+        "S2 runtime expanded-input differential/GPU numerical qualification remains incomplete"
+      ]
+    },
+    {
+      "id": "S4",
+      "status": "BLOCKED",
+      "completed": [
+        "Windows Unicode/space paths",
+        "parallel independent generations",
+        "offline static tool use",
+        "prefix-only CMake consumer",
+        "repeat build has no recompile",
+        "Linux Debug/Release pinned-source CI workflow prepared"
+      ],
+      "blocked": [
+        "Linux CI has not yet returned current-run evidence at local handoff",
+        "macOS host unavailable",
+        "physical target GPU/driver/runtime-vs-artifact output comparisons",
+        "no-runtime-compiler eight exit gates"
+      ],
+      "evidence": [
+        "verification/host-libcxx-fixed/run-1793174325797694600/commands.json",
+        "verification/installation/run-1793174255165829800/summary.json",
+        ".github/workflows/host.yml"
+      ]
+    },
+    {
+      "id": "S5",
+      "status": "BLOCKED",
+      "completed": [
+        "Windows local host candidate ZIP",
+        "schema/CMake/examples/licenses/SBOM/lock/receipt/checksums",
+        "independent file-byte hash and private-path/PE/forbidden-artifact scan",
+        "prefix-only consumer and installed-tool full contract suite"
+      ],
+      "blocked": [
+        "selected profile S4 runtime and additional host qualifications remain unmet"
+      ],
+      "candidate_scope": "Windows host static tool candidate only; not bil-qualified release",
+      "evidence": [
+        "out/MeguvizShaderTools-0.1.0-rc5-windows-x86_64.zip",
+        "verification/installation/run-1793174255165829800/summary.json",
+        "verification/installation/run-1793174255165829800/release-check.json"
+      ]
+    }
+  ],
+  "results": {
+    "host_contracts": "PASS",
+    "sha256_independent_hashlib_goldens": "PASS",
+    "reflection_exact_file_bytes": "PASS after cross-project failure repair",
+    "two_owner_static_compile": "PASS",
+    "windows_prefix_consumer": "PASS",
+    "release_integrity": "PASS",
+    "physical_device": "INCONCLUSIVE",
+    "new_engine_speedup": "INCONCLUSIVE - not measured",
+    "runtime_compiler_removal": "UNSUPPORTED until complete fixed-scope closure and device/link proofs"
+  },
+  "retained_failures": [
+    {
+      "evidence": "../MeguvizCompute/build/reports/shader/pack/manifest.json",
+      "cause": "Initial reflection_sha256 used canonical representation excluding newline, independent bytes check failed. Producer and tests now use exact bytes."
+    },
+    {
+      "evidence": "finalize-local.log",
+      "cause": "CMake precreated empty output directory rejected. Now only empty output shell may be acquired; existing nonempty artifacts remain immutable."
+    },
+    {
+      "evidence": "finalize-local-rc2.log",
+      "cause": "Premature installation copied the preceding binary before new link completed; invalid candidate retained and superseded by verified rc3/rc4."
+    },
+    {
+      "evidence": "verify-host-frozen.log",
+      "cause": "coverage negative fixture omitted newly required declared_conditions; fixture corrected and intended code10 independently observed."
+    },
+    {
+      "evidence": "../MeguvizRIFE/artifacts/R1/cross",
+      "cause": "NDK30 libc++ path iterator temporary rejected nonconst reference in copied helper. Canonical ShaderTools helper now uses const auto&; SHA/path semantics unchanged; installed rc5 full71 suite PASS."
+    }
+  ],
+  "rollback": "Keep rc3 immutable previous host candidate and ordinary Compute runtime compiler fallback. Never replace an in-use runtime or claim no-runtime profile.",
+  "next": [
+    "Coordinator can commit/push this independent project and run prepared Linux CI",
+    "Compute consumes schema-only snapshot with exact hash and immutable SPV/reflection bytes",
+    "Use actual target input capture and fixed GPU workload to close S2/S4",
+    "Separate reviewer rechecks this implementation; author verification is not independent review"
+  ],
+  "linux_ci": {
+    "source_commit": "655debe",
+    "result": "PASS Debug and Release, raw retained by coordinator",
+    "evidence": "../coordination/ci/shadertools-655debe",
+    "scope": "preceding source commit; final const-reference portability fix still needs refreshed CI"
+  },
+  "review_fixes": {
+    "resolved": [
+      "ST01 generation-based incremental consumer and strict reuse",
+      "ST02 reject unknown profile versions",
+      "ST03/ST06 final status in every writable diagnostic output",
+      "ST04 actual resource/recipe/schema/helper identity",
+      "ST05 honest S3 dependency state"
+    ],
+    "independent_recheck": "coordination/review/artifact-consumer-independent-20261028",
+    "candidate": "out\\install\\windows-x86_64-rc9-review-fixed"
+  }
+}

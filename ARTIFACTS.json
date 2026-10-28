@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "scope": "HOST_CANDIDATE_NOT_BIL_OR_GPU_QUALIFIED",
+  "version": {
+    "cli_protocol": 1,
+    "dependencies": {
+      "host_build": {
+        "build_config": "Release",
+        "compiler_id": "MSVC",
+        "compiler_sha256": "c9327f10974a1fa15f503ffd8b52c2b0b20735aa6c56d41134f77ff96608399b",
+        "compiler_version": "19.51.36247.0",
+        "cxx_standard": 17,
+        "implementation_sha256": "646a0e6488e51fd65dc019fc11fb4a00e57f4e3d6c6519338deac20cf4281e10",
+        "runtime": "static"
+      },
+      "host_runtime": "native-cxx17-static",
+      "libraries": {
+        "glslang": "780b6a209132dc74e99458f62ebe5fa7e57c41cf",
+        "ncnn": "7e36d25cb153092ba87a60530455c7376fedf452",
+        "spirv_headers": "29981f65241605e08b0ede4cfeb999fe3b723c6a",
+        "spirv_reflect": "563dc9a16d0e86145e12a66bb61f0695ca4a14b9",
+        "spirv_tools": "b707790a898e44038547df54580022fc1cf89c3d"
+      },
+      "optimization_passes": [],
+      "recipe_version": "mgst-0.1-conservative-1",
+      "resource_source_sha256": "086306ecf229d1800f66713c361102b906ba2168b87258fc6bcf1fff1a3e9a46",
+      "runtime_compiler_fallback": true,
+      "schema_version": 1
+    },
+    "gpu_required": false,
+    "host": "windows-x86_64",
+    "toolchain_lock_hash": "6e122d9add6574c7b2c45be3c691432ca3050f61e667edcbda13e178635750cb",
+    "version": "0.1.0-dev"
+  },
+  "artifacts": [
+    {
+      "path": "out/install/windows-x86_64-rc9-review-fixed/bin/mgst.exe",
+      "bytes": 4030464,
+      "sha256": "de6a895b512f63e563d76374031927f9ae6bd96436ccd8ab2c7d3645eba47521"
+    },
+    {
+      "path": "out/MeguvizShaderTools-0.1.0-rc9-review-fixed-windows-x86_64.zip",
+      "bytes": 1584788,
+      "sha256": "221b4fe09fe68020353a00da92f95f74ac23af5b3301f6f8fb901032f39d42cf"
+    },
+    {
+      "path": "verification/installation/run-1793176587925764500/summary.json",
+      "bytes": 821,
+      "sha256": "b44b4db988a895227447b5915fa7a0fa2ccd22bfee9c3e4c981a9443b36dc6c8"
+    },
+    {
+      "path": "verification/installation/run-1793176587925764500/commands.json",
+      "bytes": 17256,
+      "sha256": "6edc999ba938a0c255443780f03b3e580bc5a66ec635ad702277f85c0f682aba"
+    },
+    {
+      "path": "verification/installation/run-1793176587925764500/release-check.json",
+      "bytes": 3650,
+      "sha256": "a78e903b34f0a96b4f56edec3340dca060d74e9e4271847f3d2fbf0d921c9bcd"
+    },
+    {
+      "path": "verification/review-fixes/run-1793176549771302300/installed-contracts/run-1793176593983680300/summary.json",
+      "bytes": 747,
+      "sha256": "84cd10804ef6d35800d5c4f609570fc1d45641b90555ae8830acc8b474984c34"
+    },
+    {
+      "path": "verification/review-fixes/run-1793176549771302300/installed-contracts/run-1793176593983680300/commands.json",
+      "bytes": 155093,
+      "sha256": "135fd3c4402e8ccee155a2d46b5edf421e6bdf7181114fc20f414532149a712e"
+    }
+  ]
+}

@@ -41,3 +41,9 @@ runtime compiler fallback remains required. No strip-debug optimization is used.
 Only Windows x86-64 has been built in this environment. Linux and macOS presets
 are supplied for native runners; their binaries and cross-host reproducibility
 are not claimed. This limitation prevents a complete S4/S5 profile gate.
+
+NDK30 libc++ cross-compilation of the RIFE private source copy exposed that
+filesystem::path iteration may yield a temporary path. The shared source helper
+now binds each iteration value as const auto&, retaining the same traversal
+checks. Windows MSVC and Linux libstdc++ acceptance did not establish libc++
+source portability; this raw cross-build failure remains recorded by RIFE.

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:meguviz:compile-receipt:0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "profile_id",
+    "profile_version",
+    "source_closure_hash",
+    "toolchain_lock_hash",
+    "numeric_profile",
+    "effective_source_hash",
+    "input_identity"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "profile_version": {
+      "type": "string"
+    },
+    "source_closure_hash": {
+      "type": "string"
+    },
+    "toolchain_lock_hash": {
+      "type": "string"
+    },
+    "numeric_profile": {
+      "type": "string"
+    },
+    "effective_source_hash": {
+      "type": "string"
+    },
+    "input_identity": {
+      "type": "object"
+    }
+  }
+}

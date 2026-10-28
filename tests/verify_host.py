@@ -215,6 +215,33 @@ assert run("compile", "--request", case / "changed-include.json", "--out-dir", O
 (case / "b.glsl").write_bytes(original)
 assert run("compile", "--request", case / "request.json", "--out-dir", OUT / "reverted-include")["result"]["variant_key"] == a["variant_key"]
 
+# Independent regressions for rejected versions, final diagnostic state and verified reuse.
+shutil.copytree(OUT / "pack", OUT / "unknown-version-pack")
+unknown = json.loads((OUT / "unknown-version-pack/manifest.json").read_text(encoding="utf-8"))
+unknown["profile_version"] = "unknown"
+unknown.pop("manifest_hash", None)
+unknown["manifest_hash"] = digest(canonical(unknown).encode("utf-8"))
+put(OUT / "unknown-version-pack/manifest.json", unknown)
+run("verify", "--pack", OUT / "unknown-version-pack", code=3)
+report_failure = run("--version-json", "--report", OUT, code=9)
+assert report_failure["status"] == "FAIL" and report_failure["exit_code"] == 9
+mixed = run("--version-json", "--report", OUT / "mixed-report.json", "--diagnostics-json", OUT, code=9)
+assert mixed["status"] == "FAIL" and mixed["exit_code"] == 9
+mixed_file = json.loads((OUT / "mixed-report.json").read_text(encoding="utf-8"))
+assert mixed_file["status"] == "FAIL" and mixed_file["exit_code"] == 9
+reused = run("compile", "--request", case / "request.json", "--out-dir", OUT / "artifacts/native", "--reuse")
+assert reused["reused_existing"] and reused["result"]["spirv_sha256"] == a["spirv_sha256"]
+reused_pack = run("pack", "--index", case / "index.json", "--artifacts", OUT / "artifacts", "--out-dir", OUT / "pack", "--reuse")
+assert reused_pack["reused_existing"]
+other_identity = copy.deepcopy(request)
+other_identity["logical_shader_id"] = "fixture/different-owner"
+put(case / "different-owner.json", other_identity)
+run("compile", "--request", case / "different-owner.json", "--out-dir", OUT / "artifacts/native", "--reuse", code=8)
+shutil.copytree(OUT / "artifacts/native", OUT / "corrupt-reuse")
+(OUT / "corrupt-reuse/shader.spv").write_bytes((OUT / "corrupt-reuse/shader.spv").read_bytes() + b"bad")
+run("compile", "--request", case / "request.json", "--out-dir", OUT / "corrupt-reuse", "--reuse", code=8)
+assert digest((OUT / "artifacts/native/shader.spv").read_bytes()) == a["spirv_sha256"]
+
 summary = {"status": "PASS", "tool_sha256": digest(EXE.read_bytes()), "command_count": len(RECORDS),
            "toolchain_lock_hash": LOCKHASH, "pack": str(OUT / "pack"),
            "pack_manifest_sha256": digest((OUT / "pack/manifest.json").read_bytes()),

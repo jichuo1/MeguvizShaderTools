@@ -14,8 +14,7 @@
         "additionalProperties": false,
         "required": [
           "variant_key",
-          "declared_conditions",
-          "fallback"
+          "declared_conditions"
         ],
         "properties": {
           "variant_key": {

@@ -28,12 +28,15 @@ run([args.cmake,'--install',root/'build/host-windows-release','--prefix',prefix]
 consumer=evidence/'独立 consumer build'
 run([args.cmake,'-S',prefix/'share/MeguvizShaderTools/examples/external_consumer','-B',consumer,'-G','Ninja','-DCMAKE_MAKE_PROGRAM='+args.ninja,'-DCMAKE_PREFIX_PATH='+str(prefix)])
 run([args.cmake,'--build',consumer,'--target','verify'])
+repeat=run([args.cmake,'--build',consumer,'--target','verify'])
+if 'Generating identity-pack' in repeat:raise SystemExit('unchanged consumer unexpectedly rebuilt immutable output')
 dependencies=run([args.dumpbin,'/DEPENDENTS',prefix/'bin/mgst.exe'])
 if 'vulkan' in dependencies.lower():raise SystemExit('unexpected Vulkan runtime import')
 (evidence/'dependents.txt').write_text(dependencies,encoding='utf-8')
 archive=root/'out'/('MeguvizShaderTools-0.1.0-'+args.generation+'-windows-x86_64.zip')
 run([sys.executable,root/'tools/package_candidate.py','--prefix',prefix,'--out',archive])
 run([sys.executable,root/'tools/verify_release.py','--prefix',prefix,'--report',evidence/'release-check.json'])
-summary={'status':'PASS','host':'windows-x86_64','prefix':str(prefix),'archive':str(archive),'archive_bytes':archive.stat().st_size,'archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'executable_sha256':hashlib.sha256((prefix/'bin/mgst.exe').read_bytes()).hexdigest(),'consumer_manifest_sha256':hashlib.sha256((consumer/'identity-pack/manifest.json').read_bytes()).hexdigest(),'commands_sha256':hashlib.sha256((evidence/'commands.json').read_bytes()).hexdigest(),'output':str(evidence),'device_qualification':'INCONCLUSIVE'}
+pack_dir=pathlib.Path((consumer/'current-pack.txt').read_text(encoding='utf-8').strip())
+summary={'status':'PASS','host':'windows-x86_64','prefix':str(prefix),'archive':str(archive),'archive_bytes':archive.stat().st_size,'archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'executable_sha256':hashlib.sha256((prefix/'bin/mgst.exe').read_bytes()).hexdigest(),'consumer_manifest_sha256':hashlib.sha256((pack_dir/'manifest.json').read_bytes()).hexdigest(),'commands_sha256':hashlib.sha256((evidence/'commands.json').read_bytes()).hexdigest(),'output':str(evidence),'device_qualification':'INCONCLUSIVE'}
 (evidence/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(summary,ensure_ascii=False))

@@ -38,6 +38,9 @@
     "toolchain_lock_hash": {
       "type": "string"
     },
-    "result": {}
+    "result": {},
+    "reused_existing": {
+      "type": "boolean"
+    }
   }
 }
